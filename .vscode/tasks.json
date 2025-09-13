@@ -1,0 +1,13 @@
+{
+    // VS Code task for building the Go project
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "go build -o modbus-adaptor .",
+            "group": "build",
+            "problemMatcher": ["$go"]
+        }
+    ]
+}

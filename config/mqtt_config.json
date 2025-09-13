@@ -1,0 +1,9 @@
+{
+  "hostname": "test.mosquitto.org",
+  "port": 1883,
+  "username": "",
+  "password": "",
+  "qos": 1,
+  "cert": "",
+  "topic": "modbus/sensors"
+}

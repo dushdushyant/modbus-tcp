@@ -1,0 +1,30 @@
+{
+    "polling_interval": 10,
+    "timeout": 5,
+  "sensors": [
+    {
+      "register_name": "TemperatureSensor1",
+      "slave_id": 1,
+      "modbus_address": 100,
+      "data_type": "float32",
+      "size": 2,
+      "ip": "127.0.0.1"
+    },
+    {
+      "register_name": "Temper1",
+      "slave_id": 1,
+      "modbus_address": 100,
+      "data_type": "float32",
+      "size": 2,
+      "ip": "127.0.0.1"
+    },
+    {
+      "register_name": "Heat1",
+      "slave_id": 1,
+      "modbus_address": 100,
+      "data_type": "float32",
+      "size": 2,
+      "ip": "127.0.0.1"
+    }
+]
+}
