@@ -104,3 +104,17 @@
 2025/09/13 16:34:31 mqttpublisher.go:97: [MQTT] Payload: {"register":"Temper1","ts":"2025-09-13T11:04:30.48203Z","value":"abc"}
 2025/09/13 16:34:31 mqttpublisher.go:96: [MQTT] Message published to topic: modbus/sensors
 2025/09/13 16:34:31 mqttpublisher.go:97: [MQTT] Payload: {"register":"Heat1","ts":"2025-09-13T11:04:30.4826976Z","value":"abc"}
+2025/09/13 16:42:51 main.go:85: Logger initialized.
+2025/09/13 16:42:51 main.go:97: MQTT Config: test.mosquitto.org 1883 modbus/sensors
+2025/09/13 16:42:53 mqttpublisher.go:45: [MQTT] Connected to broker
+2025/09/13 16:42:53 mqttpublisher.go:88: [MQTT] Connect successful
+2025/09/13 16:42:53 main.go:131: Modbus TCP Adaptor started. Press Ctrl+C to exit.
+2025/09/13 16:42:53 modbusreader.go:111: Modbus connection error for TemperatureSensor1: dial tcp 127.0.0.1:502: connectex: No connection could be made because the target machine actively refused it.
+2025/09/13 16:42:53 modbusreader.go:111: Modbus connection error for Temper1: dial tcp 127.0.0.1:502: connectex: No connection could be made because the target machine actively refused it.
+2025/09/13 16:42:53 modbusreader.go:111: Modbus connection error for Heat1: dial tcp 127.0.0.1:502: connectex: No connection could be made because the target machine actively refused it.
+2025/09/13 16:42:53 mqttpublisher.go:96: [MQTT] Message published to topic: modbus/sensors
+2025/09/13 16:42:53 mqttpublisher.go:97: [MQTT] Payload: {"register":"TemperatureSensor1","ts":"2025-09-13T11:12:53.5308707Z","value":"abc"}
+2025/09/13 16:42:54 mqttpublisher.go:96: [MQTT] Message published to topic: modbus/sensors
+2025/09/13 16:42:54 mqttpublisher.go:97: [MQTT] Payload: {"register":"Temper1","ts":"2025-09-13T11:12:53.5314464Z","value":"abc"}
+2025/09/13 16:42:54 mqttpublisher.go:96: [MQTT] Message published to topic: modbus/sensors
+2025/09/13 16:42:54 mqttpublisher.go:97: [MQTT] Payload: {"register":"Heat1","ts":"2025-09-13T11:12:53.5314464Z","value":"abc"}
